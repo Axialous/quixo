@@ -22,6 +22,7 @@ td {
 
 .possible {
     background-color: rgb(226, 175, 109);
+    cursor: pointer;
 }
 
 .choisi{
