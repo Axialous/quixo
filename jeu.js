@@ -113,6 +113,14 @@ function message(x, y) {
         <td id="ae" class="${jeu[4][0].etat}">${jeu[4][0].case}</td> <td id="be" class="${jeu[4][1].etat}">${jeu[4][1].case}</td> <td id="ce" class="${jeu[4][2].etat}">${jeu[4][2].case}</td> <td id="de" class="${jeu[4][3].etat}">${jeu[4][3].case}</td> <td id="ee" class="${jeu[4][4].etat}">${jeu[4][4].case}</td>
     </tr>`;
 
+    if (phase.action == 'pousser') {
+        document.getElementById('choix').className = "choisi";
+        document.getElementById('choix').innerHTML = phase.joueur;
+    } else {
+        document.getElementById('choix').className = "non-choisi";
+        document.getElementById('choix').innerHTML = '';
+    }
+
     // Actualisation de la vérification des clics
     verification()
 }

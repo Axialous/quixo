@@ -1,6 +1,5 @@
-body {
-    display: flex;
-    justify-content: center;
+body>* {
+    margin: auto;
 }
 
 table {
@@ -9,7 +8,7 @@ table {
     border-radius: 50%;
 }
 
-td {
+td, #choix {
     background-color: rgb(216, 155, 75);
 
     text-align: center;
@@ -25,6 +24,14 @@ td {
     cursor: pointer;
 }
 
-.choisi{
+table .choisi{
+    background-color: transparent;
+}
+
+figure .choisi {
     background-color: rgb(134, 94, 42);
+}
+
+.non-choisi {
+    background-color: transparent !important;
 }
