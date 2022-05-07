@@ -1,2 +1,2 @@
-Mini projet de reproduction du jeu de société Quixo ;
+Reproduction Web du jeu de société Quixo ;
 -> entrainement au JavaScript
